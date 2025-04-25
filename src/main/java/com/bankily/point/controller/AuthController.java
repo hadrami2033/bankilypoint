@@ -17,7 +17,7 @@ import com.bankily.point.service.AuthService;
 
 
 //@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:4200"})
-@CrossOrigin(origins = { "http://localhost:3000", "http://localhost:2024"}, allowCredentials = "true" ,allowedHeaders = "**" , exposedHeaders = "token")
+//@CrossOrigin(origins = { "http://localhost:3000", "http://localhost:2024"}, allowCredentials = "true" ,allowedHeaders = "**" , exposedHeaders = "token")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
